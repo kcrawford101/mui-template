@@ -11,8 +11,8 @@ function Login() {
     const paperStyle={padding: 20, height: 'fit-content', width: 500, margin: '20px auto'}
     const avatarStyle={backgroundColor: 'green', margin:'8px 0', width: 56, height: 56}
     const btnStyle={margin:'8px 0'}
-    const logo={fontSize:'175px', margin:'15px 0 0'}
-    const logoName={margin:'0 0 50px'}
+    const logo={fontSize:'175px', margin:'15px 0 0', color:'#5e9dd6'}
+    const logoName={margin:'0 0 50px', color:'#5e9dd6' }
 
     return(
 
@@ -23,7 +23,7 @@ function Login() {
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
                 <Avatar style={avatarStyle}>A</Avatar>                                
-                <Typography variant='h3'>Sign In</Typography>
+                <Typography variant='h4'>Sign In</Typography>
                 </Grid>
                 <TextField label='Email' placeholder='Enter Email' fullWidth required/>
                 <TextField label='Password' placeholder='Enter Password' type='password'fullWidth required/>
