@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import Login from './Components/Login/Login';
-// import Login2 from './Components/Login2/Login2';
+import Navbar from './Components/Navbar/Navbar';
+import RecentOrders from './Components/RecentOrders/RecentOrders';
 
 function App() {
   return (
     <div>
-    <Login />
-    {/* <Login2 /> */}
+      <RecentOrders />
+    {/* <Navbar /> */}
+    {/* <Login /> */}
+
     </div>
   );
 }
