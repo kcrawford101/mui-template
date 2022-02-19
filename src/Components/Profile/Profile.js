@@ -65,16 +65,6 @@ export default function Profile() {
           </Grid>
         </Grid>
       </Grid>
-
-
-
-      
-      <Grid sx={{display: 'flex', flexDirection: 'row'}}>
-       
-        
-        
-        
-      </Grid>
     </Paper>
     
   )
